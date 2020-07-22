@@ -51,7 +51,7 @@
                 $r = @mysqli_query($dbc, $q); 
 
                 if ($r) {
-                    echo "nice one dude. u have registed successfully";
+                    echo "You have registed successfully";
                 } else {
                     echo mysqli_error($dbc);
                 
