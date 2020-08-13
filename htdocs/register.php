@@ -8,6 +8,7 @@
 <body>
     <h1>Register</h1>
     <?php 
+        echo "hello world";
 
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             require('../mysqli_connect.php');
